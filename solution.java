@@ -11,22 +11,22 @@ public class Main
         
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Math: ");
+        System.out.print("Math: ");
         mat = input.nextInt();
         
-        System.out.println("Physics: ");
+        System.out.print("Physics: ");
         phys = input.nextInt();
         
-        System.out.println("Chemistry: ");
+        System.out.print("Chemistry: ");
         chem = input.nextInt();
         
-        System.out.println("Turkish: ");
+        System.out.print("Turkish: ");
         tur = input.nextInt();
         
-        System.out.println("History: ");
+        System.out.print("History: ");
         hist = input.nextInt();
         
-        System.out.println("Music: ");
+        System.out.print("Music: ");
         msc = input.nextInt();
         
         sum = (mat + phys + chem + tur + hist + msc);
